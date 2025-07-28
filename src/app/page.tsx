@@ -3,6 +3,7 @@ import { Faqs } from '@/components/Faqs'
 import { FinalCTASection } from '@/components/FinalCTA'
 import { Hero } from '@/components/Hero'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
+import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <CallToAction />
       <FinalCTASection />
       <Faqs />
+      <Reviews />
     </>
   )
 }
